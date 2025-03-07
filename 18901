@@ -1,0 +1,775 @@
+<!DAOCTYPE html/>
+<html lan="en">
+	<head>
+		<title>HTML Table Testing by Shoeb Ali</title>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<meta name="description" content="how to use Table tag on html, using table tag,Inc"/>
+			<meta name="keywords" content="Table tag, html Table tag, css, html, html tag, table"/>
+			<meta name="author" content="Shoeb Ali"/>
+			<meta name="copyright" content="Copyright Shoeb Ali (2002) All Rights Reserved, Now 5 July, 2024; Friday at 4:09 PM"/>
+			<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+			
+				<style>
+					header{
+						width:100%;
+						height:170px;
+						text-align:center;
+						font-size:45px;
+						/*border:2px solid blue;*/
+						background-color:burlywood;
+						color:black;
+					
+						
+					}
+					footer{
+						text-align:center;
+						font-size:45px;
+						color:red;
+						background-color:#aaa;
+						height:170px;
+						/*border:2px solid black;*/
+						width:100%;
+					}
+					p{
+						text-align:center;
+						font-size:38px;
+						color:white;
+						background-color:green;
+					}
+					p.one{
+						text-align:center;
+						font-size:28px;
+						color:white;
+						background-color:blue;
+					}
+					p.msa{
+						text-align:center;
+						font-size:35px;
+						color:white;
+						background-color:burlywood;
+					}
+					/*<!--h1{
+						text-align:center;
+						color:black;
+					}-->*/
+					
+					
+					table.MAIN1{
+						width:100%;
+						
+						border:2px solid black;
+						border-collapse:collapse;
+						/*border-spacing:10px;*/
+						/*border-collapse use korle border-spacing kaj korbe na,*/	
+					}
+					table.main{
+						width:100%;
+						background-color:burlywood;
+						/*border:2px solid black;*/
+						border-collapse:collapse;
+						/*border-spacing:10px;*/
+						/*border-collapse use korle border-spacing kaj korbe na,*/	
+					}
+					table.two{
+						background-color:#bca;
+						width:100%;
+						/*border:2px solid black;*/
+						border-collapse:collapse;
+						border-spacing:20px;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					table.three{
+						background-color:#aaa;
+						width:100%;
+						/*border:2px solid black;*/
+						border-collapse:collapse;
+						border-spacing:2px;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					
+					
+					table.four{
+						background-color:#aaa;
+						width:100%;
+						border:2px solid black;
+						border-collapse:collapse;
+						border-spacing:20px;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					td.sidebar{
+						color:red;
+						text-align:center;
+						border:3px solid black;
+						width:150px;
+					}
+					
+					table.five{
+						background-color:#ff00ff;
+						/*width:100%;*/
+						border:2px solid yellow;
+						border-collapse:collapse;
+						border-spacing:2px;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					
+					table.six{
+						background-color:;
+						width:100%;
+						border:0px solid pink;
+						border-collapse:collapse;
+						border-spacing:20px;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					table.seven{
+						background-color:#eee;
+						width:100%;
+						border:0px solid pink;
+						/*border-collapse:collapse;*/
+						border-spacing:100%;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					table.eight{
+						background-color:;
+						width:30%;
+						border:1px solid pink;
+						/*border-collapse:collapse;*/
+						border-spacing:20px;
+						/*border-collapse use korle border-spacing kaj korbe na,*/
+					}
+					
+					th{
+						 background-color:green;
+						 border:2px solid red;
+						 color:white;
+						 padding:10px;
+						 font-family:Kalpurush;
+						 font-size:16px;
+						 
+					}
+					td{
+						border:1px solid #abc;
+						font-family:Kalpurush;
+						padding:15px;
+						font-size:14px;
+						
+						
+					}
+					tr{
+						text-align:center;
+					}
+					tr.last{
+						background-color:black;
+					}
+					
+				</style>
+	</head>
+		<body>
+			<header><h1>H E A D E R</h1>
+					<!--<div id="div1" style="background-color:black; width:100%;" >
+						<p>A B O U T &nbsp; T A B L E &nbsp; T A G &nbsp; W i t h &nbsp; &nbsp; S H O E B &nbsp; A L I</p>
+						<h1> This is Div 1</h1>
+					</div>-->
+			</header>
+			<!--<p class="msa">I am Shoeb Ali</p>-->
+		<table class="MAIN1">
+			<caption> M A I N &nbsp T A B L E </Caption>
+				<thead>
+					<tr>
+						<th colspan="2"> Table head</th>
+					</tr>
+				</thead>
+			<tbody>
+	<tr>
+		<td>
+			<table class="main">
+				<caption style="color:white; background-color:red;">Caption: This is Main Table</caption>
+					<thead>
+						<tr>
+							<th colspan="3">Heading of Main Table : I'm S H O E B &nbsp A L I</th>
+						</tr>
+					</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div id="div2" style="background-color:white; width:100%;">
+										<p class="one"> Start Div 2 for Table Testing</p>
+											<table class="two">
+												<caption style="background-color:blue; color:white;"> কিছু উল্লেখযোগ্য কৃষি উপকরণ সরবরাহকারী প্রতিষ্ঠানের নাম উল্লেখ করা হলোঃ </caption>
+												<thead>
+													<tr>
+														<th> বীজ উৎপাদন ও সরবরাহকারী প্রতিষ্ঠান </th>
+														<th> কীটনাশক সরবরাহকারী প্রতিষ্ঠান </th>
+														<th> সার সরবরাহকারী প্রতিষ্ঠান </th>
+													</tr>
+												</thead>
+													<tbody>
+														<tr class="one">
+															<td>
+																বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন
+															</td>
+															<td>
+																পদ্মা অয়েল কোম্পানি লি.
+															</td>
+															<td>
+																বাংলাদেশ কেমিক্যাল ইন্ড্রাষ্টিজ কর্পোরেশন
+															</td>
+														</tr>
+														<tr class="two">
+															<td>
+																কৃষিবিদ ফার্ম লি.
+															</td>
+															<td>
+																এসিআই লি.
+															</td>
+															<td>
+																(বিসিআইসি)
+															</td>
+														</tr>
+														<tr class="three">
+															<td>
+																এগ্রিবিজনেস কর্পোরেশন
+															</td>
+															<td>
+																স্কয়ার
+															</td>
+															<td>
+																বাংলাদেশ ফার্টিলাইজার এসোসিয়েশন
+															</td>
+														</tr>
+														<tr>
+															<td>
+																আফতার বহুমূখী ফার্ম লি.
+															</td>
+															<td>
+															আলফা এগ্রো লি.
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+														<tr class="one">
+															<td>
+																মল্লিকা সীড কোম্পানি
+															</td>
+															<td>
+																জেনেটিকা
+															</td>
+															<td>
+																মেসার্স নোয়াপাড়া ট্রেডার্স
+															</td>
+														</tr>
+														<tr style="background-color:yellow;">
+															<td>
+																পেটকো সীড কোম্পানি
+															</td>
+															<td>
+																এর্গোকোর
+															</td>
+															<td>
+																মেসার্স শেখ ব্রাদার্স
+															</td>
+														</tr>
+														<tr>
+															<td>
+																হার্ডস ফার্ম
+															</td>
+															<td>
+																নোকন লি.
+															</td>
+															<td>
+																নাফকো (প্রাঃ) লি.
+															</td>
+														</tr>
+														<tr>
+															<td>
+																কৃষাণ সীড ইন্টারন্যাশনাল
+															</td>
+															<td>
+																প্রাইম এগ্রো লি.
+															</td>
+															<td>
+																হানিবী (প্রাঃ) লি.
+															</td>
+														</tr>
+														<tr>
+															<td>
+																সুপ্রীম সীড কোম্পানি লি.
+															</td>
+															<td>
+																মার্প বাংলাদেশ
+															</td>
+															<td>
+																সুরমা ফার্টিলাইজার
+															</td>
+														</tr>
+														<tr>
+															<td>
+																এসিআই সীড
+															</td>
+															<td>
+																অটোক্রপ
+															</td>
+															<td>
+																শারীর ট্রেড সংস্থা লি.
+															</td>
+														</tr>
+														<tr>
+															<td>
+																প্রিমিয়াম সীড লি.
+															</td>
+															<td>
+																বেক্সিমকো
+															</td>
+															<td>
+																মেঘনা ফার্টিলাইজার
+															</td>
+														</tr>
+														<tr>
+															<td>
+																ব্রাক সীড
+															</td>
+															<td>
+																সেতু  কর্পোরেশন লি.
+															</td>
+															<td>
+																যমুনা এগ্রো কেমিক্যাল
+															</td>
+														</tr>
+														<tr>
+															<td>
+																নর্থ সাউথ সীড লি.
+															</td>
+															<td>
+																মার্শাল
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+														<tr>
+															<td>
+																ন্যাশনাল এগ্রিকেয়ার হাইব্রিড সীডস লি.
+															</td>
+															<td>
+																বায়ার ক্রপসায়েন্স
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+														<tr>
+															<td>
+																ইস্ট বেঙ্গল সীড কোম্পানি
+															</td>
+															<td>
+																এফএমসিআই লি.
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+													</tbody>
+											<!--tfoot>
+													<tr>
+														<th colspan="3">
+															<p style="font-family: Courier New; font-size:15px;">&copy; &nbsp Copyright &nbsp All rights reserved</p>&nbsp
+															<code>S H O E B &nbsp A L I</code>
+														</th>
+													</tr>
+												</tfoot-->
+											<!--tfoot>
+													<tr>
+														<th colspan="3">
+															<p style="font-family: Courier New; font-size:15px;">&copy; &nbsp Copyright &nbsp All rights reserved</p>&nbsp
+															<code>S H O E B &nbsp A L I</code>
+														</th>
+													</tr>
+												</tfoot-->	
+											</table>
+									</div>
+								</td>
+								<td>
+									<div id="div3" style="background-color:white; width:100%;">
+										<p class="one"> Start Div 3 for Table Testing Part 2</p>
+										<table class="three">
+											<caption> কিছু উল্লেখযোগ্য কৃষি উপকরণ সরবরাহকারী প্রতিষ্ঠানের নাম উল্লেখ করা হলোঃ </caption>
+												<thead>
+													<tr>
+														<th> বীজ উৎপাদন ও সরবরাহকারী প্রতিষ্ঠান </th>
+														<th> কীটনাশক সরবরাহকারী প্রতিষ্ঠান </th>
+														<th> সার সরবরাহকারী প্রতিষ্ঠান </th>
+													</tr>
+												</thead>
+													<tbody>
+														<tr class="one">
+															<td>
+																বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন
+															</td>
+															<td>
+																পদ্মা অয়েল কোম্পানি লি.
+															</td>
+															<td>
+																বাংলাদেশ কেমিক্যাল ইন্ড্রাষ্টিজ কর্পোরেশন
+															</td>
+														</tr>
+														<tr class="two">
+															<td>
+																কৃষিবিদ ফার্ম লি.
+															</td>
+															<td>
+																এসিআই লি.
+															</td>
+															<td>
+																(বিসিআইসি)
+															</td>
+														</tr>
+														<tr class="three">
+															<td>
+																এগ্রিবিজনেস কর্পোরেশন
+															</td>
+															<td>
+																স্কয়ার
+															</td>
+															<td>
+																বাংলাদেশ ফার্টিলাইজার এসোসিয়েশন
+															</td>
+														</tr>
+														<tr>
+															<td>
+																আফতার বহুমূখী ফার্ম লি.
+															</td>
+															<td>
+															আলফা এগ্রো লি.
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+														<tr class="one">
+															<td>
+																মল্লিকা সীড কোম্পানি
+															</td>
+															<td>
+																জেনেটিকা
+															</td>
+															<td>
+																মেসার্স নোয়াপাড়া ট্রেডার্স
+															</td>
+														</tr>
+														<tr style="background-color:yellow;">
+															<td>
+																পেটকো সীড কোম্পানি
+															</td>
+															<td>
+																এর্গোকোর
+															</td>
+															<td>
+																মেসার্স শেখ ব্রাদার্স
+															</td>
+														</tr>
+														<tr>
+															<td>
+																হার্ডস ফার্ম
+															</td>
+															<td>
+																নোকন লি.
+															</td>
+															<td>
+																নাফকো (প্রাঃ) লি.
+															</td>
+														</tr>
+														<tr>
+															<td>
+																কৃষাণ সীড ইন্টারন্যাশনাল
+															</td>
+															<td>
+																প্রাইম এগ্রো লি.
+															</td>
+															<td>
+																হানিবী (প্রাঃ) লি.
+															</td>
+														</tr>
+														<tr>
+															<td>
+																সুপ্রীম সীড কোম্পানি লি.
+															</td>
+															<td>
+																মার্প বাংলাদেশ
+															</td>
+															<td>
+																সুরমা ফার্টিলাইজার
+															</td>
+														</tr>
+														<tr>
+															<td>
+																এসিআই সীড
+															</td>
+															<td>
+																অটোক্রপ
+															</td>
+															<td>
+																শারীর ট্রেড সংস্থা লি.
+															</td>
+														</tr>
+														<tr>
+															<td>
+																প্রিমিয়াম সীড লি.
+															</td>
+															<td>
+																বেক্সিমকো
+															</td>
+															<td>
+																মেঘনা ফার্টিলাইজার
+															</td>
+														</tr>
+														<tr>
+															<td>
+																ব্রাক সীড
+															</td>
+															<td>
+																সেতু  কর্পোরেশন লি.
+															</td>
+															<td>
+																যমুনা এগ্রো কেমিক্যাল
+															</td>
+														</tr>
+														<tr>
+															<td>
+																নর্থ সাউথ সীড লি.
+															</td>
+															<td>
+																মার্শাল
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+														<tr>
+															<td>
+																ন্যাশনাল এগ্রিকেয়ার হাইব্রিড সীডস লি.
+															</td>
+															<td>
+																বায়ার ক্রপসায়েন্স
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+														<tr>
+															<td>
+																ইস্ট বেঙ্গল সীড কোম্পানি
+															</td>
+															<td>
+																এফএমসিআই লি.
+															</td>
+															<td>
+																
+															</td>
+														</tr>
+													</tbody>
+														<!--tfoot>
+																<tr>
+																	<th colspan="3">
+																		<p style="font-family: Courier New; font-size:15px;">&copy; &nbsp Copyright &nbsp All rights reserved</p>&nbsp
+																		<code>S H O E B &nbsp A L I</code>
+																	</th>
+																</tr>
+														</tfoot-->
+														<!--tfoot>
+																<tr>
+																	<th colspan="3">
+																		<p style="font-family: Courier New; font-size:15px;">&copy; &nbsp Copyright &nbsp All rights reserved</p>&nbsp
+																		<code>S H O E B &nbsp A L I</code>
+																	</th>
+																</tr>
+														</tfoot-->	
+										</table>
+									</div>	
+								</td>
+							<td class="sidebar" bgcolor="#aaa;">
+									O K This is Sidebar
+							</td>
+			</tr>
+			
+					
+	</tr>
+		<tr>
+								<tr>
+									<td colspan="3">
+										<table class="five">
+											<caption style="background-color:black; color:white;"> Caption: Table no 3</caption>
+												<thead>
+													<tr><th colspan="3">Others-2</th></tr>
+												</thead>
+													<tbody>
+														<tr>
+															<td class="part-1" width="34%">
+																<!--div id="div4" style="background-color:yellow;  width:33%;>-->
+																<table class="six">
+																	<caption style="font-size:20px;color:red;background-color:yellow;"> This is Table Caption part 1</caption>
+																		<thead>
+																			<tr>
+																			<th>Name</th>
+																			<th colspan="2">Telephone</th>
+																			</tr>
+																		</thead>
+																			<tr>
+																				<td>Anisul Islam</td>
+																				<td>01710444700</td>
+																				<td>07535243270</td>
+																			</tr>
+																			<tr>
+																				<td>Shoeb Ali</td>
+																				<td>01882978938</td>
+																				<td>0179746894</td>
+																			</tr>
+																			<tr>
+																				<td>Unknown</td>
+																				<td>01710444701</td>
+																				<td>07535243272</td>
+																			</tr>
+																</table>
+															</td>
+									<td class="part2" bgcolor="#aaa" width="33%">
+													<table style="background-color:#aab;">
+																<caption style="font-size:20px;color:red;background-color:yellow;"> This is Table Caption part 2</caption>
+														<tr>
+															<td>
+																<table class="seven">
+																		<caption>caption: Test 'scope="col/row" attibute'</caption>
+																			<colgroup>
+																				<col span="3" style="background-color:burlywood;" />
+																				
+																			</colgroup>
+																		<thead>
+																			<tr>
+																				<th>id</th>
+																				<th>Name</th>
+																				<th>GPA</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																				<tr>
+																					<td  scope="col"> 101 </td>
+																					<td> Shoeb </td>
+																					<td> 4.57 </td>
+																				</tr>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shifat </td>
+																					<td> 2.37 </td>
+																				</tr>
+																		</tbody>
+																</table>
+															</td>
+															<td>
+																<table class="seven">
+																		<caption>caption: Test 'scope="col/row" attibute'</caption>
+																		<thead>
+																			<tr>
+																				<th>id</th>
+																				<th>Name</th>
+																				<th>GPA</th>
+																			</tr>
+																		</thead>
+																			<tbody>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shoeb </td>
+																					<td> 4.57 </td>
+																				</tr>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shifat </td>
+																					<td> 2.37 </td>
+																				</tr>
+																			</tbody>
+																</table>  
+															</td>
+														</tr>
+													</table>	
+									<td class="part3" bgcolor="#aaa" width="33%">
+													<table style="background-color:#aba;">
+																<caption style="font-size:20px;color:red;background-color:yellow;"> This is Table Caption part 3</caption>
+														<tr>
+															<td>
+																<table class="seven">
+																		<caption>caption: Test 'scope="col/row" attibute'</caption>
+																		<thead>
+																			<tr>
+																				<th>id</th>
+																				<th>Name</th>
+																				<th>GPA</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shoeb </td>
+																					<td> 4.57 </td>
+																				</tr>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shifat </td>
+																					<td> 2.37 </td>
+																				</tr>
+																		</tbody>
+																</table>
+															</td>
+															<td>
+																<table class="seven">
+																		<caption>caption: Test 'scope="col/row" attibute'</caption>
+																		<thead>
+																			<tr>
+																				<th>id</th>
+																				<th>Name</th>
+																				<th>GPA</th>
+																			</tr>
+																		</thead>
+																			<tbody>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shoeb </td>
+																					<td> 4.57 </td>
+																				</tr>
+																				<tr>
+																					<td> 101 </td>
+																					<td> Shifat </td>
+																					<td> 2.37 </td>
+																				</tr>
+																			</tbody>
+																</table>
+															</td>
+														</tr>
+													</table>	
+															
+															
+														
+					
+														</tr>	
+													</tbody>
+										</table>
+									</td>
+															
+					
+														</tr>	
+													</tbody>
+										</table>
+									</td>
+									
+								</tr>
+						</tbody>
+			</table>
+			
+		
+			
+		</td>
+					
+		</tr>
+			
+		</table>	
+			<footer>This is footer</footer>
+		</body>
+
+</html>
